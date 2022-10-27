@@ -10,7 +10,7 @@ Note: It is not demanding that the final code is a working code. This time we ar
 
 ### Deliverables
 
-Make sure to include all the additional files you may have created. 
+Create a new branch and name it with your name. You will upload this branch only. Make sure to include all the additional files you may have created. 
 
 ### CodeSubmit
 
