@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.8;
+    height: 70px;
+    background-color: #fff;
+    padding: 0 10px;
+    &__img{
+        width: 150px;
+    }
+    &__about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        svg{
+            font-size: 30px;
+            color: #737373;
+        }
+        span{
+            display: none;
+            @media (min-width: 375px) {
+                display:block;
+                text-decoration: none;
+            }
+        }
+    }
+}

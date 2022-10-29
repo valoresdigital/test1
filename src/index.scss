@@ -3,7 +3,13 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  background-color: hsl(157, 87%, 56%);
 }
 
 
+a{
+  text-decoration: none;
+}
