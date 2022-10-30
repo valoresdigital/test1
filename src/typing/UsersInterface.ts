@@ -3,6 +3,6 @@ export interface IUser {
     avatarUrl: string,
     role: string,
     isBanned: boolean,
-    lastActivityAt: Date,
+    lastActivityAt: number,
     id: string
 }

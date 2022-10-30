@@ -1,0 +1,22 @@
+@import '../../styles/_Vars';
+
+.list__item{
+    display: flex;
+    align-items: center;
+    background-color:$color-neutral-secundary;
+    border-radius: 15px;
+    margin: 8px 0;
+    box-shadow: $shadow;
+    &:hover{
+        scale: 1.02;
+    }
+    &--avatar{
+        width: 50px;
+        border-radius: 50%;
+        margin: 0 11px;
+    }
+    &--fullname{
+        display: flex;
+        flex-direction: column;
+    }
+}

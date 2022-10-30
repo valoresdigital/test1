@@ -7,15 +7,17 @@ import { HiDocumentText } from "react-icons/hi";
 export const Header = () => {
   return (
     <header className='header'>
-      <Link to='/'>
-        <img  className='header__img' src={logo} alt='valores-digital-logo'/>
-      </Link>
-      <Link to='/about'>
-        <div className='header__about'>
-          <HiDocumentText className='header__about-icon' />
-          <span>About</span>
-        </div> 
-      </Link>
+      <div className='header__container'>
+        <Link to='/'>
+          <img  className='header__container--img' src={logo} alt='valores-digital-logo'/>
+        </Link>
+        <Link to='/about'>
+          <div className='header__container--about'>
+            <HiDocumentText className='header__container--about-icon' />
+            <span>About</span>
+          </div> 
+        </Link>
+      </div>
     </header>
   );
 };

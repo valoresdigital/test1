@@ -1,28 +1,39 @@
+@import '../../styles/_Vars';
+
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
     opacity: 0.8;
-    height: 70px;
-    background-color: #fff;
-    padding: 0 10px;
-    &__img{
-        width: 150px;
-    }
-    &__about{
+   
+    background-color: $color-secundary;
+    padding: 0 14px;
+    position: sticky;
+    top: 0px;
+    &__container{
+        max-width:$desktop ;
+        margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        svg{
-            font-size: 30px;
-            color: #737373;
+        height: 70px;
+        &--img{
+        width: 150px;
         }
-        span{
-            display: none;
-            @media (min-width: 375px) {
-                display:block;
-                text-decoration: none;
+        &--about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            svg{
+                font-size: 30px;
+                color: $color-neutral;
+            }
+            span{
+                display: none;
+                @media (min-width: $movile) {
+                    display:block;
+                    text-decoration: none;
+                }
             }
         }
     }
+
 }

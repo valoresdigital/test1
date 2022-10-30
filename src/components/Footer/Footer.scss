@@ -1,38 +1,47 @@
+@import '../../styles/_Vars';
+
 .footer {
     opacity: 0.8;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-    height: 60px;
-    &__text {
-        width: 80%;
-        font-size: 10px;
-        color:#737373
-    }
-    &__list {
-        list-style: none;
+    background-color: $color-secundary;
+    margin-top: 36px;
+    
+    &__container{
         display: flex;
-        padding: 0;
-        &__social {
-            border-radius: 100%;
-            text-align: center;
-            line-height: 40px;
-            width: 40px;
-            height: 40px;
-            margin-left: 2px;
-            background-color: #eceeef;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        max-width: $desktop;
+        margin: 0 auto;
+
+        &__text {
+            width: 80%;
+            font-size: 10px;
+            color:$color-neutral;
+            margin-left: 14px;
+        }
+        &__list {
+            list-style: none;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            &--icon{
+            padding: 0;
+            &__social {
+                border-radius: 100%;
+                text-align: center;
+                line-height: 40px;
+                width: 40px;
+                height: 40px;
+                margin-left: 2px;
+                background-color: $color-secundary;
                 display: flex;
                 justify-content: center;
-                align-items: center; 
-                svg{
-                    color:#737373;
-                    font-size: 30px;
+                align-items: center;
+                &--icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; 
+                    svg{
+                        color:$color-neutral;
+                        font-size: 30px;
+                    }
                 }
             }
         }
