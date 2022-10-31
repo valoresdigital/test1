@@ -8,6 +8,8 @@
 <details>
 <summary>Detailed folder structure</summary>
 
+```
+.
 public/
 src/
 | assets/
@@ -33,8 +35,6 @@ src/
 |-- App.tsx
 |-- index.tsx
 ```
-```
-
 </details>
 
 ## Specifications 
