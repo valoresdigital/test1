@@ -2,7 +2,7 @@
 @import '../../styles/_Vars';
 
 .home{
-    padding: 0 14px;
+    width: 100%;
     @media (min-width: $movile) {
         max-width: $desktop;
         margin: 0 auto;
@@ -12,6 +12,7 @@
         font-weight: 700;
         margin: 36px 0;
         font-size: 20px;
+        padding: 0 10px;
     }
     &__spinner{
         justify-content: center;
@@ -21,5 +22,6 @@
     &__list{
         margin: 0;
         padding: 0;
+        padding: 0 10px;
     }
 }

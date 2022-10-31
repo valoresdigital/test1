@@ -3,9 +3,8 @@
 .header{
    
     opacity: 0.8;
-   
+    width: 100%;
     background-color: $color-secundary;
-    padding: 0 14px;
     position: sticky;
     top: 0px;
     &__container{
@@ -15,6 +14,7 @@
         justify-content: space-between;
         align-items: center;
         height: 70px;
+        padding: 0 10px;
         &--img{
         width: 150px;
         }

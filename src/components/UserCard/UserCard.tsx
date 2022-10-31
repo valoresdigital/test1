@@ -2,7 +2,7 @@ import React from 'react';
 import { IUser } from '../../typing/UsersInterface';
 import './UserCard.scss';
 
-export const UserCard = ({fullName,avatarUrl,role,isBanned,lastActivityAt,id}:IUser) => {
+export const UserCard = ({fullName,avatarUrl,role}:IUser) => {
   
   
   return (

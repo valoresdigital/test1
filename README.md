@@ -1,3 +1,54 @@
+<p align="center">
+  <a href="#specifications">Specifications</a> •
+  <a href="https://fastyride.netlify.app" target="_blank">Demo</a> •
+</p>
+
+## Folder overview
+
+<details>
+<summary>Detailed folder structure</summary>
+
+public/
+src/
+| assets/
+|-- components/
+|   |-- UserCard/
+|   |   |-- UserCard.tsx
+|   |   |-- UserCard.scss
+|-- pages/
+|   |-- Home/
+|   |   |-- Home.tsx
+|   |   |-- Home.scss
+|   |-- index.js
+|-- routes/
+|   |-- routes.tsx
+|-- styles/
+|   |-- _Vars.scss
+|   |-- index.scss
+|-- typing/
+|   |-- UserInterfaces.ts
+|-- utils/
+|   |-- Helpers.tsx
+|   |-- Services.tsx
+|-- App.tsx
+|-- index.tsx
+```
+```
+
+</details>
+
+## Specifications 
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [SASS](https://sass-lang.com/)
+
+
+## Project Scripts
+| Name | Description |
+| ------ | ------ |
+| npm install | install all dependencies |
+| npm run dev | run server|
+
 ### Objective
 
 Using TypeScript and React, your assignment is to put into practice programming principle and reorganized the code, in order to obtain a cleaner scalable code.
