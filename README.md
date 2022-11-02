@@ -23,15 +23,15 @@ src/
 |   |   |-- Home.scss
 |   |-- index.js
 |-- routes/
-|   |-- routes.tsx
+|   |-- RoutesMain.tsx
 |-- styles/
 |   |-- _Vars.scss
 |   |-- index.scss
 |-- typing/
-|   |-- UserInterfaces.ts
+|   |-- UserInterface.ts
 |-- utils/
-|   |-- Helpers.tsx
-|   |-- Services.tsx
+|   |-- Helpers.ts
+|   |-- Services.ts
 |-- App.tsx
 |-- index.tsx
 ```
@@ -47,7 +47,7 @@ src/
 | Name | Description |
 | ------ | ------ |
 | npm install | install all dependencies |
-| npm run dev | run server|
+| npm start | run server|
 
 ### Objective
 

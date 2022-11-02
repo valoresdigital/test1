@@ -4,7 +4,6 @@ import './UserCard.scss';
 
 export const UserCard = ({fullName,avatarUrl,role}:IUser) => {
   
-  
   return (
     <li className='list__item'>
         <img src={avatarUrl} alt='avatar' className='list__item--avatar'/>

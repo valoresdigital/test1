@@ -6,8 +6,6 @@ import { UserCard } from '../../components/UserCard/UserCard';
 import { DotSpinner } from '@uiball/loaders';
 import { weekAgo } from '../../utils/Helpers';
 
-
-
 export const Home = () => {
   const [users, setUsers] = useState <Array<IUser>>([])
   const [ isLoading, setIsLoading ] = useState <boolean>(true);
