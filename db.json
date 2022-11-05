@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Pedro Gomes",
+      "role": "Asistente",
+      "avatarUrl": "https://i.pravatar.cc/100",
+      "isBanned": false,
+      "lastActivityAt": 1667550999031
+    },
+    {
+      "id": 2,
+      "fullName": "Maria Perez",
+      "role": "Presidente",
+      "avatarUrl": "https://i.pravatar.cc/100",
+      "isBanned": false,
+      "lastActivityAt": 1667550999031
+    }
+  ]
+}
