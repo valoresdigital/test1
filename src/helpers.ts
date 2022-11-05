@@ -3,7 +3,7 @@ const calculateDateOneWeekAgo = () => {
   return weekAgo.setDate(weekAgo.getDate() - 7);
 };
 
-const loadUsers = async (setUsers, setError) => {
+const loadUsers = async (setUsers: any, setError: any) => {
   try {
     const response = await fetch("http://localhost:3004/users");
     if (response.ok) {
