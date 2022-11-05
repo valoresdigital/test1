@@ -11,3 +11,4 @@ export default App;
 //TODO dar estilo
 //TODO pasar a TS
 // TODO Cambiar  "allowJs": true,
+//TODO poner strict mode
